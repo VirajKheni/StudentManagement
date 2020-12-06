@@ -61,7 +61,7 @@
             }
 
             if (!isset($err_address) && !isset($err_dob) && !isset($err_loc) && !isset($err_gender) && !isset($err_email) && !isset($err_fname) && !isset($err_lname) && !isset($err_mname) && !isset($err_phno) && !isset($err_roll) && !isset($err_state) && !isset($err_zipcode)) {
-                if ($con = mysqli_connect("localhost", "root", "", "student_registration", 3306)) {
+                if ($con = mysqli_connect("database-19mca012.c3z0bmuqh9ie.us-east-1.rds.amazonaws.com", "admin", "Viraj.8989", "student_registration")) {
 //                echo "Database Connection SuccessFully.";
                 } else {
                     die("Database Connection SuccessFully.");
